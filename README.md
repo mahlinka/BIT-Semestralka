@@ -13,7 +13,7 @@ Zdrojove kódy zraniteľností boli čerpané z nasledujúceho [github repozitá
 
 Contracty sme si zaobalili do [hardhat](https://hardhat.org) frameworku za účelom jednoduchšej manipulácie a testovania smart contractov. 
 
-Za účelom zjednošenia procesu deploymentu contractov sme si vytvorili [script](scripts/).
+Za účelom zjednoduchšenia procesu deploymentu contractov sme si vytvorili [script](scripts/).
 
  Samotnú funkčnosť contractov a vykonanie exploitov sme overili prostredníctvom nami napísaných [unit testov](test/).
 
