@@ -4,7 +4,7 @@ Stavová premenná contractu sa mení po tom, čo sa vyvolá `call.value`. Úto�
 
 ## Útočný scenár
 
-- Contract, ktorý obsahuje mapovanie zostatkov na účtoch, umožňuje používateľom zavolať funkciu `withdraw`. Avšak odoslanie `withdraw` volania zavolá `send`, ktorý síce prevedie kontrolu o volaní nad contractom, ale nezníži zostatok aktíva na účte, kým sa celé odoslanie neskončí. Tým pádom môže útočník opakovane vyberať peniaze, ktoré nemá.
+- Contract, ktorý obsahuje mapovanie zostatkov na účtoch, umožňuje používateľom zavolať funkciu `withdraw`. Avšak odoslanie `withdraw` volania zavolá `send`, ktorý síce prevedie kontrolu o volaní nad contractom, ale nezníži zostatok aktív na účte, kým sa celé odoslanie neskončí. Tým pádom môže útočník opakovane vyberať peniaze, ktoré nemá.
 
 ## Konkrétný príklad
 
